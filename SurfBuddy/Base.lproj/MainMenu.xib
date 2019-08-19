@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SurfBuddy" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="wcp-jO-SzA" customClass="StatusMenuController" customModule="SurfBuddy" customModuleProvider="target">
+            <connections>
+                <outlet property="statusMenu" destination="fSz-4s-MSG" id="khg-I2-66z"/>
+            </connections>
+        </customObject>
+        <menu id="fSz-4s-MSG">
+            <items>
+                <menuItem title="Location" id="Iqp-Ji-5oQ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="locationClicked:" target="wcp-jO-SzA" id="o0j-Ww-wLp"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="ses-3Q-Y7Z">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClickedWithSender:" target="wcp-jO-SzA" id="ABv-Wg-qZ6"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="36" y="168"/>
+        </menu>
+    </objects>
+</document>
