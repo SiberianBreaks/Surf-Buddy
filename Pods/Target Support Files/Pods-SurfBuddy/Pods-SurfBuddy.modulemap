@@ -1,0 +1,6 @@
+framework module Pods_SurfBuddy {
+  umbrella header "Pods-SurfBuddy-umbrella.h"
+
+  export *
+  module * { export * }
+}

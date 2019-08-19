@@ -1,0 +1,6 @@
+framework module Pods_SurfBuddyUITests {
+  umbrella header "Pods-SurfBuddyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
