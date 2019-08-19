@@ -15,23 +15,7 @@ class breakDetails: NSWindowController {
 //Match county to array
         var countyCode: Int
         let floridaEastCoast = [650, 651, 630, 555, 552, 550, 454, 452]
-            let findCounty = county
-        switch {
-            
-        case "West Palm Beach County":
-         countyCode = 650
-            break
-            
-        case "Broward County":
-             countyCode= 651
-        
-        case "Miami Dade County":
-            if
-            countyCode = 651
-            break
-            else
-            countyCode
-        }
+        //Under-Construction!
         
 //Find swell height
         
