@@ -14,7 +14,6 @@ class BeachConditions: NSObject {
     var swellMax = 0
     
     func location(homeBreak: String) -> String {
-        let greeting = "Hello !"
-        return greeting
+       //To-Do
     }
 }
